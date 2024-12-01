@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Countdown Cover Page",
+  "version": "1.0",
+  "description": "A Chrome extension that replaces the new tab page with a countdown timer.",
+  "author": "Your Name",
+  "permissions": [],
+  "chrome_url_overrides": {
+    "newtab": "countdown.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["bg.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
